@@ -1,9 +1,12 @@
 '''
-TelegramGroupMovingTool by alexcarchiar, realized because I hate repetitive tasks.
+TelegramMegaGroupMovingTool by alexcarchiar, realized because I hate repetitive tasks.
 It's mostly just a script, don't take it as final code.
 It will work, but you may need to adapt it.
 If you have any problems, don't hesitate to contact me!
 (visit alessandrochiarelli.com to find out how)
+
+This version works with megagroups and possibly even channels, but I haven't tested channels yet
+can't promise my spaghetti code works.
 
 In order for it to work:
 - get your api id and api hash from Telegram developer website
