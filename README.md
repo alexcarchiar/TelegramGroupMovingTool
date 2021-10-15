@@ -1,5 +1,5 @@
 # TelegramGroupMovingTool
-TelegramBlaster is a small python script that I created for my students' team in order to send telegram messages to all contacts in a csv form. Customize it as you wish!
+TelegramGroupMovingTool is a small python script that I created for my students' team in order to move all participants from one group to another. Customize it as you wish!
 
 ## Installation
 Python 3 is required as well as Telethon and its dependencies
@@ -28,8 +28,10 @@ Using this method the program will ask you the api keys (possibly the phone numb
 ```python
 from TelegramGroupMovingTool import TelegramGropuMovingTool
 TelegramGroupMovingTool(api_id, api_hash, original_group_link, new_group_link)
-```  
-  
-    
-  
+```
+
+## New Update:
+
+If you need to add people from a group to a megagroup, use the new module TelegramMegaGroupMovingTool.py . Remember that in order to avoid being detected as a flood spam by Telegram, the tool stops for two minutes every time it adds new people. In order to run it, do the same as for the other script.    
+
 ##### Created by [Alessandro Chiarelli](https://github.com/alexcarchiar) because I hate repetitive tasks!
